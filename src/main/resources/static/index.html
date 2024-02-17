@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <script src="index.js"></script>
-    <title>Bestilling av kinobilletter</title>
+    <title>Kinobilletter</title>
 </head>
 <body>
-<h1>Kinobilletter</h1>
+<h1>Bestilling av kinobilletter</h1>
 <table class="table">
     <tr>
         <td>Velg film:</td>
         <td>
-            <select id="film" onchange="validerVelgFilm();">
+            <select id="film" onchange="velgFilm();">
+                <option value="">Velg...</option>
                 <option>Barbie</option>
                 <option>Mean Girls</option>
                 <option>Konvoi</option>
@@ -24,7 +25,7 @@
                 <option>The Beekeeper</option>
                 <option>The Holdovers</option>
             </select>
-            <span id="rulleblad" style="display:none;"></span>
+            <p id="feilmelding"></p>
         </td>
     </tr>
     <tr>
@@ -62,7 +63,7 @@
         <td><button value="Slett billetter" onclick="slett()">Slett alle billetter</button></td>
     </tr>
 </table>
-<div id="billettListe"></div>
-<div id="resultat"></div>
+        <h3>Registrerte billetter:</h3>
+<span id="resultat"></span>
 </body>
 </html>
