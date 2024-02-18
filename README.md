@@ -9,7 +9,7 @@ GitHub repo URL: https://github.com/gaavisures/Oblig1.git
 
 Fullt navn: Gaaviga Sureskaran
 
-Kort beskrivelse av applikasjon:
+Kort beskrivelse av applikasjonen:
 
 Det er utviklet applikasjon for bestilling av kinobilletter.
 Den inneholder variabler som film, antall billetter, navn, telefonnummer og e-post.
