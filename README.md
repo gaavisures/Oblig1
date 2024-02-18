@@ -5,7 +5,7 @@ OsloMet brukernavn: gasur2769
 
 GitHub brukernavn: gaavisures
 
-GitHub repo URL: 
+GitHub repo URL: https://github.com/gaavisures/Oblig1.git 
 
 Fullt navn: Gaaviga Sureskaran
 
