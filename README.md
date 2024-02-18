@@ -10,6 +10,7 @@ GitHub repo URL:
 Fullt navn: Gaaviga Sureskaran
 
 Kort beskrivelse av applikasjon:
+
 Det er utviklet applikasjon for bestilling av kinobilletter.
 Den inneholder variabler som film, antall billetter, navn, telefonnummer og e-post.
 Flere eksterne kilder er blitt brukt i utviklingen av denne applikasjonen, inkludert tykkelse for variablene, regEx for e-post og telefonnummer.

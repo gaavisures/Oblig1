@@ -2,15 +2,19 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
+    <!--lagt inn index.js for å koble denne html filen til javascript filen-->
     <script src="index.js"></script>
     <title>Kinobilletter</title>
 </head>
 <body>
 <h1>Bestilling av kinobilletter</h1>
+<!--tabell som inneholder bestillingsinformasjonen-->
 <table class="table">
     <tr>
         <td>Velg film:</td>
         <td>
+            <!--rullegardinmeny for å velge film, når filmen er valgt vil funksjonen
+            velgFilm() bli kalt.-->
             <select id="film" onchange="velgFilm();">
                 <option value="">Velg film her</option>
                 <option>Barbie</option>
@@ -25,6 +29,7 @@
                 <option>The Beekeeper</option>
                 <option>The Holdovers</option>
             </select>
+            <!-- feilmelding som vises for "velgFilm"-->
             <p id="feilmelding"></p>
         </td>
     </tr>
@@ -54,16 +59,20 @@
         <td id="epostFeil"></td>
     </tr>
     <tr>
+        <!--knapp for å kjøpe billetten, når den klikkes vil kjop() funskjonen bli kalt.-->
         <td><button value="Kjøp billett" onclick="kjop()">Kjøp billett</button></td>
     </tr>
     <tr>
         <td><h2>Alle billetter</h2></td>
     </tr>
     <tr>
+        <!--knapp som sletter billetter som er lagt inn i kjop()-->
         <td><button value="Slett billetter" onclick="slett()">Slett alle billetter</button></td>
     </tr>
 </table>
         <h3>Registrerte billetter:</h3>
+<!--<span> grupperer denne delen separat fra resten, og her vises
+resultatet uavhengig av hovedinnholdet-->
 <span id="resultat"></span>
 </body>
 </html>
