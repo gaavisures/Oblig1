@@ -160,7 +160,7 @@ function velgFilm() {
     //kilde: https://www.drschore.com/tilordne-en-skjult-verdi-fra-en-nedtrekksmeny-i-javascript/
     if (valgtFilm === "") {
         const valgtFeil = document.getElementById("feilmelding");
-        valgtFeil.innerHTML = "Vennligst velg en verdi fra rullegardinmenyen";
+        valgtFeil.innerHTML = "Vennligst velg en film fra menyen";
         valgtFeil.style.color = "red";
         return false; // gjør at man ikke kan gå videre
     } else {
